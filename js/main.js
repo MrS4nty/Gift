@@ -1,13 +1,13 @@
 // Song data
 const songList = [
     {
-        title: "Mon Amour <3",
+        title: "Mon Amour ♡",
         file: "Mon-Amour.mp3",
         cover: "Mon-Amour.jpg"
 
     },
     {
-        title: "Snowman",
+        title: "Snowman ♡",
         file: "Snowman.mp3",
         cover: "snowman.jpg"
     },
