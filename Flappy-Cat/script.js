@@ -72,7 +72,7 @@ var canvas = document.getElementById('my-canvas'),
 	pies;
 
 /**********init**********/
-img.src = './img/sprite2.png';
+img.src = './img/spritexd.png';
 img.onload = start;
 canvas.width = viewSize.width;
 canvas.height = viewSize.height;
