@@ -194,10 +194,16 @@ Ground.prototype.draw = function () {
 
 /***********画小鸟***********/
 function Bird() {
-	this.imgX = [170, 222, 275];
-	this.imgY = [750, 750, 750];
-	this.imgW = [34, 34, 34];
-	this.imgH = [24, 24, 24];
+	//this.imgX = [170, 222, 275]; real coordinates
+	//this.imgY = [750, 750, 750];
+	//this.imgW = [34, 34, 34];
+	//this.imgH = [24, 24, 24];
+	       // My Cords
+	this.imgX = [164, 210, 256]; 
+	this.imgY = [779, 779, 779];	
+	this.imgW = [44, 44, 44];
+	this.imgH = [31, 31, 31];
+	
 	var canX = Math.ceil(110 / 450 * viewSize.width);
 	var canY = Math.ceil(380 / 800 * viewSize.height);
 	var canW = Math.ceil(34 * k);
