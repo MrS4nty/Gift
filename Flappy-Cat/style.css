@@ -1,0 +1,25 @@
+*{ 
+   padding: 0;
+   margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#my-canvas {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#restart{
+    position: absolute;
+    z-index: 999;
+}
