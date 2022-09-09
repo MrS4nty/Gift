@@ -10,8 +10,8 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "My Snowman <3",
-          artist: "Sia X Amoshito :3",
+          name: "Sia X Amoshito :3",
+          artist: "My Snowman <3",
           cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
           source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Snowman.mp3",
           url: "https://instagram.com/mrs4nty",
