@@ -12,8 +12,8 @@ new Vue({
         {
           name: "My Snowman <3",
           artist: "Sia X Amoshito :3",
-          cover: "../img/Mon-Amour.jpg",
-          source: "../audio/Mon-Amour.mp3",
+          cover: "./img/Mon-Amour.jpg",
+          source: "./audio/Mon-Amour.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: true
         },
