@@ -12,7 +12,7 @@ new Vue({
         {
           name: "My Snowman <3",
           artist: "Sia X Amoshito :3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/snowman.jpg",
+          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
           source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Snowman.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
