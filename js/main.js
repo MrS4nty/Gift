@@ -151,3 +151,13 @@ new Vue({
     };
   }
 });
+
+function viewsongs() {
+  document.getElementById('player').style.display = 'none';
+  document.getElementById('songsxd').style.display = 'block';
+}
+
+function hidesongs() {
+  document.getElementById('player').style.display = 'block';
+  document.getElementById('songsxd').style.display = 'none';
+}
