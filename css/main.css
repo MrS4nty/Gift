@@ -41,7 +41,138 @@ body {
   }
 }
 
+
+
+
+
+.songs {
+  display: none;
+  background: #212121;
+  width: 410px;
+  min-height: 480px;
+  border-radius: 15px;
+  padding: 30px;
+}
+@media screen and (max-width: 576px), (max-height: 500px) {
+  .songs {
+    display: block;
+    width: 95%;
+    padding: 20px;
+    margin-top: 75px;
+    min-height: initial;
+    padding-bottom: 30px;
+    max-width: 400px;
+  }
+}
+.list{
+  border-spacing: 0px 2px;
+  width: 342px;
+  top: 378px;
+  left: 12px;
+}
+.list tr {
+  transform-origin: 0% 50%;
+  height: 50px;
+  text-align: center;
+  background: #1d1d1d;
+  text-indent: 8px;
+}
+
+.list tr:hover {
+  background: #222;
+  cursor: pointer;
+}
+
+.title {
+  width: 215px;
+  text-align: left;
+  text-indent: 15px;
+  transition: all 0.11s ease-in;
+}
+
+.list tr:hover .title {
+  padding-left: 5px;
+  width: 210px;
+  transition: all 0.11s ease-in;
+}
+
+td > #heart:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart1:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart2:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart3:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart4:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart5:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart6:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart7:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+td > #heart8:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
+label.zmr:before {
+  font-family: FontAwesome;
+  content: "\f08a";
+  color: #777;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.15s linear;
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+
+
+
 .player {
+  display: block;
   background: #212121;
   width: 410px;
   min-height: 480px;
@@ -235,14 +366,6 @@ body {
   color: red;
 }
 
-[v-cloak] {
-  display: none;
-}
-
-[v-cloak] > * {
-  display: none;
-}
-
 .progress {
   width: 100%;
   margin-top: -15px;
@@ -361,3 +484,5 @@ body {
   pointer-events: none;
   opacity: 0;
 }
+
+
