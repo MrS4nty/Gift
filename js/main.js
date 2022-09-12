@@ -232,6 +232,8 @@ new Vue({
   }
 });
 
+let sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 function viewsongs() {
   document.getElementById('player').style.display = 'none';
   document.getElementById('songsxd').style.display = 'block';
