@@ -232,7 +232,15 @@ new Vue({
   }
 });
 
-let sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
 
 function viewsongs() {
   document.getElementById('player').style.display = 'none';
@@ -242,4 +250,14 @@ function viewsongs() {
 function hidesongs() {
   document.getElementById('player').style.display = 'block';
   document.getElementById('songsxd').style.display = 'none';
+}
+
+function startview(){
+  sleep(500)
+  viewsongs()
+}
+
+function starthide(){
+  sleep(500)
+  hidesongs()
 }
