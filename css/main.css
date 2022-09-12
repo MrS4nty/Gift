@@ -41,15 +41,46 @@ body {
   }
 }
 
+.comeback{
+  color: #fff;
+  margin-top: 20px;
+  border: 1px solid mediumorchid;
+  border-radius: 10px;
+  background-color: #333;
+  width: 110px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.comeback:after {
+  content: '\f113';
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 0; left: 0;
+  z-index: -1;
+  color: mediumorchid;
+  font-size: 40px;
+  transition: all 500ms ease;
+}
+.comeback:hover:after {
+  transform: translate(5px,-30px);
+}
 
+.songs::-webkit-scrollbar{
+  width: 7px;
+}
 
-
+.songs::-webkit-scrollbar-thumb{
+  background: cyan;
+  border-radius: 5px;
+}
 
 .songs {
+  overflow: scroll;
+  overflow-x: hidden;
   display: none;
   background: #212121;
   width: 410px;
-  min-height: 480px;
+  height: 480px;
   border-radius: 15px;
   padding: 30px;
 }
