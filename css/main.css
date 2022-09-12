@@ -70,7 +70,7 @@ body {
 }
 
 .songs::-webkit-scrollbar-thumb{
-  background: cyan;
+  background: cornflowerblue;
   border-radius: 5px;
 }
 
@@ -95,6 +95,14 @@ body {
     max-width: 400px;
   }
 }
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
 .list{
   border-spacing: 0px 2px;
   width: 342px;
@@ -102,7 +110,6 @@ body {
   left: 12px;
 }
 .list tr {
-  transform-origin: 0% 50%;
   height: 50px;
   text-align: center;
   background: #1d1d1d;
@@ -132,54 +139,67 @@ td > #heart:checked ~ label.zmr:before {
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart1:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart2:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart3:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart4:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart5:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart6:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart7:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
-
 td > #heart8:checked ~ label.zmr:before {
   content: "\f004";
   color: #ff564c;
   transition: all 0.15s linear;
 }
+td > #heart9:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+td > #heart10:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+td > #heart11:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+td > #heart12:checked ~ label.zmr:before {
+  content: "\f004";
+  color: #ff564c;
+  transition: all 0.15s linear;
+}
+
 
 label.zmr:before {
   font-family: FontAwesome;
@@ -199,8 +219,19 @@ input[type=checkbox] {
   z-index: 10;
 }
 
+h5{
+  color: violet;
+}
+h6{
+  color: #F4F4F4;
+}
 
-
+td{
+  text-align: center;
+  background: #1f1f1f;
+  color: #00CCFF;
+  box-shadow: 5px 5px 8px #c237db ; 
+}
 
 .player {
   display: block;
