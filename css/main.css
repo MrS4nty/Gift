@@ -414,42 +414,44 @@ body {
   left: 3px;
 }
 
-//scale out
-
 .scale-out-enter-active {
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
+
 .scale-out-leave-active {
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
+
 .scale-out-enter {
-  transform: scale(.55);
+  transform: scale(0.55);
   pointer-events: none;
   opacity: 0;
 }
+
 .scale-out-leave-to {
   transform: scale(1.2);
   pointer-events: none;
   opacity: 0;
 }
 
-
-//scale in
-
 .scale-in-enter-active {
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
+
 .scale-in-leave-active {
-  transition: all .35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
+
 .scale-in-enter {
   transform: scale(1.2);
   pointer-events: none;
   opacity: 0;
 }
+
 .scale-in-leave-to {
-  transform: scale(.55);
+  transform: scale(0.55);
   pointer-events: none;
   opacity: 0;
 }
+
 
