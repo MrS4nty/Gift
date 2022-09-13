@@ -86,7 +86,7 @@ body {
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .songs {
-    display: block;
+    display: none;
     width: 95%;
     padding: 20px;
     margin-top: 75px;
