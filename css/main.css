@@ -65,172 +65,36 @@ body {
   transform: translate(5px,-30px);
 }
 
-.songs::-webkit-scrollbar{
-  width: 7px;
+::-webkit-scrollbar{
+  width: 0px;
 }
-
-.songs::-webkit-scrollbar-thumb{
+/*
+::-webkit-scrollbar-thumb{
   background: cornflowerblue;
   border-radius: 5px;
 }
+*/
 
 .songs {
   overflow: scroll;
-  overflow-x: hidden;
   display: none;
   background: #212121;
   width: 410px;
-  height: 480px;
+  height: 410px;
   border-radius: 15px;
-  padding: 30px;
+  padding: 20px;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .songs {
+    overflow: scroll;
     display: none;
     width: 95%;
     padding: 20px;
-    margin-top: 75px;
+    margin-top: 9%;
     min-height: initial;
     padding-bottom: 30px;
     max-width: 400px;
   }
-}
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-}
-.list{
-  border-spacing: 0px 2px;
-  width: 342px;
-  top: 378px;
-  left: 12px;
-}
-.list tr {
-  height: 50px;
-  text-align: center;
-  background: #1d1d1d;
-  text-indent: 8px;
-}
-
-.list tr:hover {
-  background: #222;
-  cursor: pointer;
-}
-
-.title {
-  width: 215px;
-  text-align: left;
-  text-indent: 15px;
-  transition: all 0.11s ease-in;
-}
-
-.list tr:hover .title {
-  padding-left: 5px;
-  width: 210px;
-  transition: all 0.11s ease-in;
-}
-
-td > #heart:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart1:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart2:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart3:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart4:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart5:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart6:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart7:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart8:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart9:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart10:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart11:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-td > #heart12:checked ~ label.zmr:before {
-  content: "\f004";
-  color: #ff564c;
-  transition: all 0.15s linear;
-}
-
-
-label.zmr:before {
-  font-family: FontAwesome;
-  content: "\f08a";
-  color: #777;
-  font-size: 15px;
-  line-height: 15px;
-  cursor: pointer;
-  z-index: 10;
-  transition: all 0.15s linear;
-}
-
-input[type=checkbox] {
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-  z-index: 10;
-}
-
-h5{
-  color: violet;
-}
-h6{
-  color: #F4F4F4;
-}
-
-td{
-  text-align: center;
-  background: #1f1f1f;
-  color: #00CCFF;
-  box-shadow: 5px 5px 8px #c237db ; 
 }
 
 .player {
@@ -507,42 +371,45 @@ td{
   }
 }
 
-.scale-out-enter-active {
-  transition: all 0.35s ease-in-out;
+.box{
+  margin-left: auto;
+  margin-right: auto;
+  color: #00CCFF;
+  box-shadow: 5px 5px 8px #c237db ; 
+  width: 300px;
 }
 
-.scale-out-leave-active {
-  transition: all 0.35s ease-in-out;
+.box h2{
+  margin:0px auto;
+  color: #FFF;
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.scale-out-enter {
-  transform: scale(0.55);
-  pointer-events: none;
-  opacity: 0;
+.box ul{
+  position: relative;
+  background: #1f1f1f;
 }
 
-.scale-out-leave-to {
-  transform: scale(1.2);
-  pointer-events: none;
-  opacity: 0;
+.box ul li{
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  background: #1f1f1f;
+  box-shadow: 0 5px 25px rgba(0,0,0,.1);
 }
 
-.scale-in-enter-active {
-  transition: all 0.35s ease-in-out;
+.timexd{
+  position: absolute;
+  right: 3px;
 }
 
-.scale-in-leave-active {
-  transition: all 0.35s ease-in-out;
-}
-
-.scale-in-enter {
-  transform: scale(1.2);
-  pointer-events: none;
-  opacity: 0;
-}
-
-.scale-in-leave-to {
-  transform: scale(0.55);
-  pointer-events: none;
-  opacity: 0;
+.contentsong{
+  position: absolute;
+  left: 3px;
 }
