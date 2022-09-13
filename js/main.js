@@ -12,104 +12,130 @@ new Vue({
         {
           name: "Jósean Log X Amoshito :3",
           artist: "ChaChaChaaa :3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Cha-Cha-Cha.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Cha-Cha-Cha.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Yatra X Amoshito :3",
           artist: "Como Mirarte <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Como-Mirarte.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Como-Mirarte.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Prince Royce X Amoshito :3",
           artist: "Darte Un Beso :3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Darte-Un-Beso.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Darte-Un-Beso.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Lalo Ebrat X Amoshito :3",
           artist: "Mocca ᵃ",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mocca.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mocca.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Aitana X Amoshito :3",
           artist: "Mon Amour <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mon-Amour.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mon-Amour.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Zarcort X Amoshito :3",
           artist: "Nunca Jamas <33",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Nunca-Jamas.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Nunca-Jamas.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Ed Sheeran X Amoshito :3",
           artist: "Perfect <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Perfect.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Perfect.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Doja Cat X Amoshito :3",
           artist: "Say So <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Say-So.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Say-So.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Sia X Amoshito :3",
           artist: "My Snowman <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Snowman.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Snowman.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Carly Rae X Amoshito :3",
           artist: "So Call Me Maybe <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/So-Call-Me-Maybe.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/So-Call-Me-Maybe.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Yatra X Amoshito :3",
           artist: "Tacones Rojos <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Tacones-Rojos.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Tacones-Rojos.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Ed Sheeran X Amoshito :3",
           artist: "Thinking Out Loud <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Thinking-Out-Loud.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Thinking-Out-Loud.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         },
         {
           name: "Reik X Amoshito :3",
           artist: "Un Añoooo <3",
-          cover: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
-          source: "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Un-Año.mp3",
+          cover:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+          source:
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Un-Año.mp3",
           url: "https://instagram.com/mrs4nty",
           favorited: false
         }
@@ -201,7 +227,7 @@ new Vue({
       this.audio.currentTime = 0;
       this.audio.src = this.currentTrack.source;
       setTimeout(() => {
-        if(this.isTimerPlaying) {
+        if (this.isTimerPlaying) {
           this.audio.play();
         } else {
           this.audio.pause();
@@ -219,19 +245,18 @@ new Vue({
     this.currentTrack = this.tracks[0];
     this.audio = new Audio();
     this.audio.src = this.currentTrack.source;
-    this.audio.ontimeupdate = function() {
+    this.audio.ontimeupdate = function () {
       vm.generateTime();
     };
-    this.audio.onloadedmetadata = function() {
+    this.audio.onloadedmetadata = function () {
       vm.generateTime();
     };
-    this.audio.onended = function() {
+    this.audio.onended = function () {
       vm.nextTrack();
       this.isTimerPlaying = true;
     };
   }
 });
-
 
 function sleep(milliseconds) {
   const date = Date.now();
@@ -241,23 +266,22 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 
-
 function viewsongs() {
-  document.getElementById('player').style.display = 'none';
-  document.getElementById('songsxd').style.display = 'block';
+  document.getElementById("player").style.display = "none";
+  document.getElementById("songsxd").style.display = "block";
 }
 
 function hidesongs() {
-  document.getElementById('player').style.display = 'block';
-  document.getElementById('songsxd').style.display = 'none';
+  document.getElementById("player").style.display = "block";
+  document.getElementById("songsxd").style.display = "none";
 }
 
-function startview(){
-  sleep(500)
-  viewsongs()
+function startview() {
+  sleep(500);
+  viewsongs();
 }
 
-function starthide(){
-  sleep(500)
-  hidesongs()
+function starthide() {
+  sleep(500);
+  hidesongs();
 }
