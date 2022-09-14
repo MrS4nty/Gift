@@ -13,7 +13,7 @@ new Vue({
           name: "Jósean Log X Amoshito :3",
           artist: "ChaChaChaaa :3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%231.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Cha-Cha-Cha.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -23,7 +23,7 @@ new Vue({
           name: "Yatra X Amoshito :3",
           artist: "Como Mirarte <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%232.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Como-Mirarte.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -33,7 +33,7 @@ new Vue({
           name: "Prince Royce X Amoshito :3",
           artist: "Darte Un Beso :3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%233.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Darte-Un-Beso.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -43,7 +43,7 @@ new Vue({
           name: "Lalo Ebrat X Amoshito :3",
           artist: "Mocca ᵃ",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%234.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mocca.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -53,7 +53,7 @@ new Vue({
           name: "Aitana X Amoshito :3",
           artist: "Mon Amour <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%235.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Mon-Amour.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -63,7 +63,7 @@ new Vue({
           name: "Zarcort X Amoshito :3",
           artist: "Nunca Jamas <33",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%236.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Nunca-Jamas.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -73,7 +73,7 @@ new Vue({
           name: "Ed Sheeran X Amoshito :3",
           artist: "Perfect <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%237.jfif",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Perfect.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -93,7 +93,7 @@ new Vue({
           name: "Sia X Amoshito :3",
           artist: "My Snowman <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Mon-Amour.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%238.png",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Snowman.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -103,7 +103,7 @@ new Vue({
           name: "Carly Rae X Amoshito :3",
           artist: "So Call Me Maybe <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%239.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/So-Call-Me-Maybe.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -113,7 +113,7 @@ new Vue({
           name: "Yatra X Amoshito :3",
           artist: "Tacones Rojos <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%2310.jfif",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Tacones-Rojos.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -123,7 +123,7 @@ new Vue({
           name: "Ed Sheeran X Amoshito :3",
           artist: "Thinking Out Loud <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%2311.jfif",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Thinking-Out-Loud.mp3",
           url: "https://instagram.com/mrs4nty",
@@ -133,7 +133,7 @@ new Vue({
           name: "Reik X Amoshito :3",
           artist: "Un Añoooo <3",
           cover:
-            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/Picture.jpg",
+            "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/img/%2313.jpg",
           source:
             "https://raw.githubusercontent.com/MrS4nty/Gift/gh-pages/audio/Un-Año.mp3",
           url: "https://instagram.com/mrs4nty",
