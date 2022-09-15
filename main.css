@@ -309,6 +309,8 @@ a {
 }
 
 .blue {
+   display: grid;
+   place-content: center;
    background-color: #669AE1;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -320,6 +322,8 @@ a {
 }
 
 .green {
+   display: grid;
+   place-content: center;
    background-color: #70CC72;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -331,6 +335,8 @@ a {
 }
 
 .red {
+   display: grid;
+   place-content: center;
    background-color: #FE4365;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -342,6 +348,8 @@ a {
 }
 
 .purple {
+   display: grid;
+   place-content: center;
    background-color: #C49CDE;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -353,6 +361,8 @@ a {
 }
 
 .orange {
+   display: grid;
+   place-content: center;
    background-color: #FC913A;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -364,6 +374,8 @@ a {
 }
 
 .lightblue {
+   display: grid;
+   place-content: center;
    background-color: #62C2E4;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
