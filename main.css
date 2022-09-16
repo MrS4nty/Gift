@@ -81,25 +81,11 @@
 body {
    padding: 0;
    margin: 0;
-  background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
-	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
+   min-height: 100%;
+   background: #000;
    color: #212121;
    text-align: center;
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 
 a {
    color: inherit;
@@ -387,4 +373,23 @@ a {
 .lightblue:hover {
    color: #62C2E4;
    text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#scrollbar{
+  top: 0;
+  right: 0;
+  background: cornflowerblue;
+  width: 5px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0 0 10px cornflowerblue, 0 0 20px cornflowerblue, 0 0 40px cornflowerblue;
+  border-radius: 10px;
+}
+
+html{
+  height: 100%; 
 }
