@@ -103,6 +103,7 @@ body {
 
 a {
    color: inherit;
+  text-decoration: none;
 }
 
 .menu-item,
@@ -175,6 +176,8 @@ a {
 }
 
 .menu {
+   display: grid;
+   place-content: center;
    padding-top: 50px;
    margin: auto;
    width: 50px;
