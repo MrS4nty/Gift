@@ -5,6 +5,10 @@ html{
   max-height: 100%;
 }
 
+html::-webkit-scrollbar{
+ Width: 0px;
+}
+
 
 .muchotexto{
   margin: 20px;
