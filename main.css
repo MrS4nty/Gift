@@ -6,7 +6,7 @@ html{
 }
 
 html::-webkit-scrollbar{
- Width: 0px;
+ visibiliy: hidden;
 }
 
 
