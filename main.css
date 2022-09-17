@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 
-html{
-  max-height: 200vh;
-}
-
-html::-webkit-scrollbar{
- visibility: hidden;
-}
-
-
 .muchotexto{
   margin: 20px;
   background: #212121;
@@ -381,16 +372,5 @@ a {
 }
 
 ::-webkit-scrollbar {
-  display: none;
-}
-
-#scrollbar{
-  top: 0;
-  right: 0;
-  background: cornflowerblue;
-  width: 5px;
-  height: 0px;
-  position: absolute;
-  box-shadow: 0 0 10px cornflowerblue, 0 0 20px cornflowerblue, 0 0 40px cornflowerblue;
-  border-radius: 10px;
+  width: 3px;
 }
