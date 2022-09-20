@@ -49,10 +49,6 @@ body {
   font-size: 4em;
 }
 
-#game-over-text{
-  color: #FFF;
-}
-
 .game-container {
   margin: 50px auto;
   display: grid;
@@ -174,8 +170,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #FF6D00;
-font-family: 'Josefin Slab', serif;
+  color: #FFF;
+  font-family: 'Josefin Slab', serif;
   transition: background-color 500ms, font-size 500ms;
 }
 
