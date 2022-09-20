@@ -85,8 +85,8 @@ body {
 }
 
 .card-back {
-  background-color: #8F97CB;
-  border-color: #FF6D00;
+  background-color: #FFF;
+  border-color: #000;
   transform: rotateY(0); 
 }
 
