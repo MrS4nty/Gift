@@ -31,7 +31,7 @@ body {
 }
 
 .page-title {
-  color: #000;
+  color: #FFF;
   font-family: 'Cinzel', serif;
   font-weight: normal;
   text-align: center;
@@ -45,7 +45,7 @@ body {
 }
 
 .game-info {
-  color: #FFBB89;
+  color: #E0FFFF;
   font-size: 4em;
 }
 
