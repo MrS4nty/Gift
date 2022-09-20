@@ -22,8 +22,6 @@ html {
 
 body {
   margin: 0;
-  height: 100vh;
-  width: 100%;
   background-image: radial-gradient(circle at top left, #f58e87 0%, #d7ffbd);
 }
 
