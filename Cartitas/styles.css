@@ -49,6 +49,10 @@ body {
   font-size: 4em;
 }
 
+#game-over-text{
+  color: #FFF;
+}
+
 .game-container {
   margin: 50px auto;
   display: grid;
