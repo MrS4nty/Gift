@@ -1,8 +1,4 @@
-@font-face {
-    font-family: "Creepy";
-    src: url("Assets/Fonts/Creepy.woff") format("woff"),
-         url("Assets/Fonts/Creepy.woff2") format("woff2");
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 * {
@@ -167,7 +163,7 @@ body {
   align-items: center;
   flex-direction: column;
   color: #FF6D00;
-  font-family: Creepy, serif;
+font-family: 'Josefin Slab', serif;
   transition: background-color 500ms, font-size 500ms;
 }
 
