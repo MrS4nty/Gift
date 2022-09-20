@@ -28,6 +28,7 @@ body {
 .bgxd {
   width: 100%;
   height: 100%;
+    display: block;
 
   background-image: radial-gradient(
       ellipse at left bottom,
