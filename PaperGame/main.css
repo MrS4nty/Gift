@@ -1,0 +1,248 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+@-webkit-keyframes beacon {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 0 2rem transparent;
+  }
+}
+@keyframes beacon {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 0 2rem transparent;
+  }
+}
+.row {
+  display: flex;
+  flex-flow: row;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.chip {
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.2em 0.35em -0.15em rgba(35, 41, 44, 0.5);
+}
+.chip .fa {
+  font-size: 65%;
+}
+
+.beacon-1 {
+  -webkit-animation: beacon 1s infinite linear;
+          animation: beacon 1s infinite linear;
+}
+
+.beacon-2 {
+  -webkit-animation: beacon 1s infinite linear;
+          animation: beacon 1s infinite linear;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.beacon-3 {
+  -webkit-animation: beacon 1s infinite linear;
+          animation: beacon 1s infinite linear;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.bg-info {
+  background: #00BCD4;
+  color: #f3f4f5;
+}
+
+.bg-success {
+  background: #cddc39;
+  color: #f3f4f5;
+}
+
+.bg-alert {
+  background: #FF3B80;
+  color: #f3f4f5;
+}
+
+.bg-warning {
+  background: #ff5722;
+  color: #f3f4f5;
+}
+
+.bg-dark {
+  background: #23292C;
+  color: #f3f4f5;
+}
+
+.bg-light {
+  background: #f3f4f5;
+  color: #23292C;
+}
+
+.fg-light {
+  color: #f3f4f5;
+}
+
+.fg-dark {
+  color: #23292C;
+}
+
+.ghost {
+  opacity: 0.35;
+}
+
+.jajajaxd {
+  background: darkcyan;
+  color: #000;
+  padding: 10px;
+}
+
+.flip-container {
+  perspective: 800;
+}
+.flip-container.flip-me .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back,
+.answers,
+footer {
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.answers {
+  font-size: 8vmax;
+}
+
+footer {
+  font-size: 3vmax;
+}
+footer h1 {
+  margin: 0;
+}
+
+.flipper {
+  font-size: 35vmin;
+  height: 1em;
+  transition: 0.8s cubic-bezier(1, -0.5, 0.2, 1.5);
+  transform-style: preserve-3d;
+  position: relative;
+}
+.flipper .front,
+.flipper .back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  height: 1em;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+.flipper .front {
+  z-index: 2;
+  color: #838789;
+  transform: translate(-50%, 0%) rotateY(0deg);
+}
+.flipper .back {
+  transform: translate(-50%, 0%) rotateY(180deg);
+  width: 1em;
+}
+
+article {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  transform-origin: center;
+  justify-content: center;
+  color: #f3f4f5;
+  background-color: #23292C;
+  background-image: linear-gradient(170deg, #cddc39, #ff5722);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  transform-origin: center;
+  justify-content: center;
+}
+main .answered:not(.winner) {
+  opacity: 0.5;
+  background: none;
+}
+main .flipper {
+  margin: 0 auto;
+}
+main .message-wrap {
+  bottom: 35%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) scale(0);
+  transition: 0.3s cubic-bezier(0.5, 0.1, 0.3, 1.4);
+  transition-delay: 0s;
+  z-index: 1;
+}
+main .message-wrap.show {
+  bottom: 50%;
+  transform: translateX(-50%) scale(1);
+  transition-delay: 0.9s;
+}
+main .message-wrap .message {
+  padding: 0.5em 1em;
+  justify-content: center;
+  border-radius: 3em;
+  box-shadow: 0 0 2em -0.3em rgba(18, 21, 22, 0.65);
+  line-height: 1.5;
+  opacity: 0.9;
+}
+main .message-wrap .text {
+  margin-right: 1em;
+}
+main .message-wrap div {
+  font-size: 1.5em;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
