@@ -154,7 +154,7 @@ body {
 }
 
 .card-front {
-  background-color: #00206d;
+  background-color: darkcyan;
   border-color: #333;
   transform: rotateY(180deg);
 }
