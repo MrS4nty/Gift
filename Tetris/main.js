@@ -416,7 +416,7 @@ class Board {
         top: x * $(ele).innerHeight() + "px"
       });
     });
-    $("#message").text("Tetris");
+    $("#message").text("Tetris♡");
     window.animatelo.flash("#new-game", {
       duration: 2500,
       iterations: Infinity
@@ -466,7 +466,7 @@ class Board {
       }
       $("#banner").show();
       $("#message").text("Game Over!");
-      $("#new-game").text("Tap here to start again!");
+      $("#new-game").text("Click Pa Reiniciar!");
     }
   }
 
