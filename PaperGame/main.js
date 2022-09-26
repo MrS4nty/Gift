@@ -14,20 +14,20 @@ const choiceButtons = [...document.getElementsByClassName("choice")];
 const compButtons = [...document.getElementsByClassName("computer")];
 const resultDisplay = document.getElementById("results-display");
 const resultData = {
-  win: 0,
-  draw: 0,
-  lose: 0
+  Win: 0,
+  Empate: 0,
+  Lose: 0
 };
 choiceButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
     const comp = compChoice();
     let result = "";
     if (win[comp] === btn.value) {
-      result = "win";
+      result = "Win";
     } else if (btn.value === comp) {
-      result = "draw";
+      result = "Empate";
     } else {
-      result = "lose";
+      result = "Lose";
     }
     compButtons.forEach((element) => {
       if (element.value === comp) {
