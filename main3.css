@@ -183,8 +183,16 @@ body.menu-active div#content .menu-trigger {
 }
 
 .submenucontent{
-  height: 20px;
+  height: auto;
   transition: all 0.3s;
+}
+
+.sub-nav-item a{
+  color: darkgray;
+}
+
+.sub-nav-item a:hover{
+  color: #DCDCDC;
 }
 
 .mostrar{
@@ -195,4 +203,9 @@ body.menu-active div#content .menu-trigger {
 .ocultar{
   display: none;
   transition: all .7s;
+}
+
+.right{
+  position: absolute;
+  right: 100px; 
 }
