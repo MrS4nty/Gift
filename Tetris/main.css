@@ -1,4 +1,4 @@
-html{
+*{
   overflow: hidden; 
   overflow-x: hidden;
   overflow-y: hidden;
@@ -64,16 +64,16 @@ body {
 }
 
 #board {
-  float: left;
-  position: relative;
+  position: absolute;
   background-color: darkgray;
+  top: 10%;
   width: 280px;
   height: 448px;
-  margin: 10px auto;
   border: 2px solid #303a21;
 }
 
 #stats {
+  top: 9%;
   right: 3px;
   position: absolute;
   background-color: darkcyan;
