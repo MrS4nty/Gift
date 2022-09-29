@@ -27,11 +27,3 @@ const mostrar2 = () => {
      document.querySelector(".submenucontent2").classList.add("ocultar");
   }
 }
-
-const mostrar3 = () => {
-  if(document.querySelector(".submenucontent3").classList.contains("ocultar")){
-     document.querySelector(".submenucontent3").classList.remove("ocultar");
-  } else {
-     document.querySelector(".submenucontent3").classList.add("ocultar");
-  }
-}
