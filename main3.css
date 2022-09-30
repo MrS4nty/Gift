@@ -16,7 +16,10 @@
 */
 body {
   margin: 0;
+  padding: 0;
   background: #556270;
+  box-sizing: border-box;
+  display: grid;
 }
 
 a{
@@ -100,8 +103,8 @@ div#content {
   width: 100%;
   max-width: 100%;
   height: 100%;
-  padding: 60px;
   background: #212534;
+  box-sizing: border-box;
   border-radius: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -158,18 +161,6 @@ body.menu-active div#content .menu-trigger {
   left: 294px;
 }
 
-.card {
-  margin: auto;
-  background: #191c29;
-  color: #fff;
-  width: 300px;
-  height: 360px;
-  padding: 3px;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 #title{
   margin-top: 10px;
   font-family: "Marmelad", sans-serif;
@@ -208,4 +199,36 @@ body.menu-active div#content .menu-trigger {
 .right{
   position: absolute;
   right: 100px; 
+}
+
+.cardbg{
+  position: relative;
+  top: 17%;
+  left: 5%;
+  height: 370px;
+  width: 310px;
+  background: linear-gradient(135deg, #14ffe9, #ff3b3b, #ff00e0);
+  border-radius: 10px;
+  animation: animate 1.5s linear infinite;
+  z-index: 1;
+}
+
+.card {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  background: #191c29;
+  color: #fff;
+  width: 300px;
+  height: 360px;
+  padding: 3px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+@keyframes animate{
+  100%{
+    filter: hue-rotate(360deg);
 }
