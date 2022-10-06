@@ -17,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #556270;
+  background: #191c29;
   box-sizing: border-box;
   display: grid;
 }
@@ -213,7 +213,7 @@ body.menu-active div#content .menu-trigger {
 }
 
 .postit { 
-  margin-top: 100px;
+  margin-top: 69px;
   padding: 3px;
   text-align:center;     
   width: 300px;      
