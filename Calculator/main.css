@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+.calc{
+    width: 360px;
+    margin: 20px auto;
+}
+
+.display{
+    margin: auto;
+    color: #fff;
+    background: gray; 
+    border-radius: 10px;
+    font-size: 80px;
+    text-align: right;
+    padding: 10px;
+    width: 300px;
+    height: 110px;
+}
+
+.keypad{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.key{
+    background-color: #333333;
+    color: #ffffff;
+    width: 65px;
+    height: 65px;
+    line-height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+    margin: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+.key:active{
+    background-color: #33333390;
+}
+.zero{
+    width: 140px;
+    border-radius: 90px;
+}
+
+tr:first-child td .key{
+    background-color: #a5a5a5;
+    color: #000000;
+}
+tr:first-child td .key:active{
+    background-color: #a5a5a590;
+}
+
+tr td:last-child .key{
+    background-color: #ffa45c;
+    color: #ffffff;
+}
+tr td:last-child .key:active{
+    background-color: #ffa45c90;
+}
+
+a {
+  position: absolute;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #03e9f4;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px
+}
+a span {
+  position: absolute;
+  display: block;
+}
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
