@@ -1,0 +1,326 @@
+body {
+  background-color: #26A69A;
+  margin: 16px 0 200px 0;
+}
+.rounded-button {
+  border: 5px #004D44 solid;
+  border-radius: 200px;
+  background-color: #B2DFDB;
+}
+#game-turn-display {
+  border: 5px #004D44 solid;
+  border-radius: 200px;
+  background-color: #B2DFDB;
+  display: inline-block;
+  font-size: 19px;
+  font-family: "Roboto Light", sans-serif;
+  color: #004D44;
+  text-align: center;
+  padding: 8px 16px;
+  margin: 4px;
+}
+.score-field {
+  color: #F2F2F2;
+}
+.score-field .score-title {
+  position: relative;
+  bottom: 5px;
+  display: inline-block;
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 25px;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+.score-field .score-element {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+.score-field .score-element .score-value {
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.score-field .score-element .score-player-name {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.game-result-display-container {
+  position: absolute;
+  display: none;
+  top: 30vh;
+  z-index: 1;
+  height: 68px;
+  overflow: hidden;
+}
+.game-result-display-container .game-result-display-bg {
+  height: 65px;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  filter: blur(11px) opacity(80%);
+  background-color: #C5F7F3;
+}
+.game-result-display {
+  z-index: 4;
+  position: relative;
+  width: 100vw;
+  height: 64px;
+  color: #004D44;
+  font-size: 50px;
+  border: 2px #004D44;
+  border-style: solid none solid none;
+  font-family: "Roboto Light", sans-serif;
+}
+.game-field {
+  background-color: #004D40;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 80vw;
+  min-width: 190px;
+  max-width: 300px;
+  height: 80vw;
+  min-height: 190px;
+  max-height: 300px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.game-field button {
+  cursor: pointer;
+  outline: none !important;
+  position: relative;
+  float: left;
+  top: 3.5%;
+  left: 3.5%;
+  font-size: 20vw;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #004D44;
+  width: 31%;
+  height: 31%;
+  background: #B2DFDB;
+  border-color: #00796B;
+  border-width: 4px;
+}
+@media only screen and (min-width: 375px) {
+  .game-field button {
+    font-size: 80px;
+  }
+}
+.game-field #grid-1 {
+  border-style: none solid solid none;
+  border-radius: 8px 0 0 0;
+}
+.game-field #grid-2 {
+  border-style: none solid solid solid;
+}
+.game-field #grid-3 {
+  border-style: none none solid solid;
+  border-radius: 0 8px 0 0;
+}
+.game-field #grid-4 {
+  border-style: solid solid solid none;
+}
+.game-field #grid-5 {
+  border-style: solid;
+}
+.game-field #grid-6 {
+  border-style: solid none solid solid;
+}
+.game-field #grid-7 {
+  border-style: solid solid none none;
+  border-radius: 0 0 0 8px;
+}
+.game-field #grid-8 {
+  border-style: solid solid none solid;
+}
+.game-field #grid-9 {
+  border-style: solid none none solid;
+  border-radius: 0 0 8px 0;
+}
+.action-button-field button {
+  border: 5px #004D44 solid;
+  border-radius: 200px;
+  background-color: #B2DFDB;
+  outline: none !important;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: "Roboto Light", sans-serif;
+  color: #004D44;
+  text-align: center;
+  padding: 8px 16px;
+  margin: 4px;
+}
+.action-button-field button i {
+  color: #00796B;
+  margin-right: 6px;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.game-settings-field {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 8px 0;
+  padding: 16px 0;
+  background-color: #7DC7C0;
+}
+.game-settings-field #switch-player-mode {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 54px;
+}
+.game-settings-field #switch-player-mode input {
+  display: none;
+}
+.game-settings-field #switch-player-mode .slider {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.1s;
+  border: 4px #004D40 solid;
+  border-radius: 34px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+  background-color: #B2DFDB;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+}
+.game-settings-field #switch-player-mode .slider:before {
+  position: absolute;
+  bottom: 5px;
+  right: 121px;
+  content: "1 Player";
+  padding: 6px 12px;
+  display: inline-block;
+  width: 90px;
+  background-color: #00796B;
+  color: #F2F2F2;
+  transition: 0.1s;
+  border-radius: 30px;
+}
+.game-settings-field #switch-player-mode input:checked + .slider:before {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  content: "2 Players";
+  right: 7px;
+}
+.game-settings-field #switch-player-mode .other-option {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+}
+.game-settings-field #switch-player-mode .slider:after {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+  content: "2 Players";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 75%;
+}
+.game-settings-field #switch-player-mode input:checked + .slider:after {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+  content: "1 Player";
+  top: 50%;
+  left: 22%;
+}
+.game-settings-field #player-one-type-switch-group {
+  display: inline-block;
+  margin-top: 10px;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type-title {
+  display: inline-block;
+  vertical-align: middle;
+  color: #004D44;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  margin-right: 10px;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  width: 125px;
+  height: 54px;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type input {
+  display: none;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type .slider {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 0.1s;
+  border: 4px #004D40 solid;
+  border-radius: 34px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+  background-color: #B2DFDB;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type .slider:before {
+  position: absolute;
+  bottom: 5px;
+  right: 58px;
+  content: "X's";
+  padding: 6px 12px;
+  display: inline-block;
+  width: 28px;
+  background-color: #00796B;
+  color: #F2F2F2;
+  transition: 0.1s;
+  border-radius: 30px;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type input:checked + .slider:before {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  content: "O's";
+  right: 7px;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type .other-option {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type .slider:after {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+  content: "O's";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 75%;
+}
+.game-settings-field #player-one-type-switch-group #switch-player-one-type input:checked + .slider:after {
+  color: #004D44;
+  font-size: 20px;
+  font-family: "Roboto Light", sans-serif;
+  width: 100px;
+  background: back;
+  content: "X's";
+  top: 50%;
+  left: 22%;
+}
