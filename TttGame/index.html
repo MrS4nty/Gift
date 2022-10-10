@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Gato De Bb</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+<body>
+<div class="container" align="center"> 
+
+  <span class="score-field">
+    <p class="score-title">Scores</p>
+
+    <div class="score-element">
+      <p id="player-one-score" class="score-value">0</p>
+      <p id="player-one-name" class="score-player-name">Player 1</p>
+    </div>
+
+    <div class="score-element">
+      <p id="player-two-score" class="score-value">0</p>
+      <p id="player-two-name" class="score-player-name">Computer</p>
+    </div>
+  </span>
+
+
+  <div class="game-result-display-container">
+    <div class="game-result-display-bg"></div>
+    <div class="game-result-display">Player Two Wins</div>
+  </div>
+  
+  <div class="game-field">
+    <button id="grid-1"></button>
+    <button id="grid-2"></button>
+    <button id="grid-3"></button>
+    <button id="grid-4"></button>
+    <button id="grid-5"></button>
+    <button id="grid-6"></button>
+    <button id="grid-7"></button>
+    <button id="grid-8"></button>
+    <button id="grid-9"></button>
+  </div>
+
+
+  <span class="action-button-field">
+    <div id="game-turn-display">X's Player 1</div>
+    <button id="reset-button"><i class="fa fa-refresh"></i>Reset</button>
+  </span>
+
+
+  <div class="game-settings-field">
+    <label id="switch-player-mode">
+      <input id="checkbox-player-mode" type="checkbox">
+      <div class="slider round"></div>
+    </label>
+
+    <br>
+
+    <span id="player-one-type-switch-group">
+      <p id="switch-player-one-type-title">Player 1 plays:</p>
+
+      <label id="switch-player-one-type">
+        <input id="checkbox-player-one-type" type="checkbox">
+        <div class="slider round"></div>
+      </label>
+    </span>
+  </div>
+
+
+</div>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
