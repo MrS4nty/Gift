@@ -320,4 +320,3 @@ function inputIsInvalid(){
     for (i = 1; i <= 9; i++){
         document.getElementById("row " + String(i)).innerHTML = "Invalid Board Please Try Another!"
     }
-}
