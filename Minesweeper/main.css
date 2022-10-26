@@ -1,0 +1,165 @@
+body{
+  background: cornsilk;
+}
+
+.container {
+  width: 500px;
+  align-content: center;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dcd6bc;
+  margin: auto;
+  margin-top: 20px;
+  border: 10px solid #dcd6bc;
+  margin-bottom: 10px;
+}
+
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+.valid {
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.bomb {
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  box-sizing: border-box;
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #57da59;
+}
+
+.four{
+  color: #bb41d3;
+}
+
+#result {
+  margin-top: 5px;
+  color: #e76346;
+}
+
+a {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 20px;
+  color: coral;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px
+}
+a span {
+  position: absolute;
+  display: block;
+}
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, cornflowerblue);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, cornflowerblue);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, cornflowerblue);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, cornflowerblue);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
