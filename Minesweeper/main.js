@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //game over
   function gameOver(square) {
-    result.innerHTML = 'BOOM! Game Over!<br>Reload To Play Again!'
+    result.innerHTML = 'BOOM! Game Over!<br>Ota Ve Amoshito :D Yeiii!!!'
     isGameOver = true
 
     //show ALL the bombs
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
         matches ++
       }
       if (matches === bombAmount) {
-        result.innerHTML = 'YOU WIN!<br>Reload To Play Again!'
+        result.innerHTML = 'YOU WIN!<br>T Ganaste Muchos Betitos Y mUcho Amor Cori A Reclamar :D!!'
         isGameOver = true
       }
     }
